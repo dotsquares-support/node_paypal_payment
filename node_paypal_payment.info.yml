@@ -1,0 +1,7 @@
+name: Node Paypal Payment
+description: Allow make paypal standerd payment on node creation
+package: Custom Payment
+
+type: module
+core: 8.x
+configure: node_paypal_payment.config

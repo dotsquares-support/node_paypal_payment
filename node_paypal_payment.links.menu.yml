@@ -1,0 +1,16 @@
+node_paypal_payment.default:
+  title: Node Paypal Payment
+  route_name: node_paypal_payment.default
+  parent: system.admin_config
+  description: 'Allow make paypal standerd payment on node creation.'
+  
+node_paypal_payment.config:
+  title: settings
+  route_name: node_paypal_payment.config
+  parent: node_paypal_payment.default
+  description: 'Allow make paypal standerd payment on node creation.'
+  
+node_paypal_payment.adminlist:
+  title: All Payments
+  route_name: node_paypal_payment.adminlist
+  parent: node_paypal_payment.default
